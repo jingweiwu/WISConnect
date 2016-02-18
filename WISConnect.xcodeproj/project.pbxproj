@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381668561C75F17400CCA4AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668551C75F17400CCA4AA /* main.m */; };
+		381668591C75F17400CCA4AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668581C75F17400CCA4AA /* AppDelegate.m */; };
+		3816685B1C75F17400CCA4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3816685A1C75F17400CCA4AA /* Assets.xcassets */; };
+		3816685E1C75F17400CCA4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3816685C1C75F17400CCA4AA /* LaunchScreen.storyboard */; };
+		381668691C75F17400CCA4AA /* WISConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668681C75F17400CCA4AA /* WISConnectTests.m */; };
+		381668741C75F17400CCA4AA /* WISConnectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668731C75F17400CCA4AA /* WISConnectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381668651C75F17400CCA4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381668491C75F17400CCA4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381668501C75F17400CCA4AA;
+			remoteInfo = WISConnect;
+		};
+		381668701C75F17400CCA4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381668491C75F17400CCA4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381668501C75F17400CCA4AA;
+			remoteInfo = WISConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381668511C75F17400CCA4AA /* WISConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WISConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381668551C75F17400CCA4AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		381668571C75F17400CCA4AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		381668581C75F17400CCA4AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3816685A1C75F17400CCA4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3816685D1C75F17400CCA4AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3816685F1C75F17400CCA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381668641C75F17400CCA4AA /* WISConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WISConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381668681C75F17400CCA4AA /* WISConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WISConnectTests.m; sourceTree = "<group>"; };
+		3816686A1C75F17400CCA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3816686F1C75F17400CCA4AA /* WISConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WISConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381668731C75F17400CCA4AA /* WISConnectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WISConnectUITests.m; sourceTree = "<group>"; };
+		381668751C75F17400CCA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3816684E1C75F17400CCA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381668611C75F17400CCA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3816686C1C75F17400CCA4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381668481C75F17400CCA4AA = {
+			isa = PBXGroup;
+			children = (
+				381668531C75F17400CCA4AA /* WISConnect */,
+				381668671C75F17400CCA4AA /* WISConnectTests */,
+				381668721C75F17400CCA4AA /* WISConnectUITests */,
+				381668521C75F17400CCA4AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381668521C75F17400CCA4AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381668511C75F17400CCA4AA /* WISConnect.app */,
+				381668641C75F17400CCA4AA /* WISConnectTests.xctest */,
+				3816686F1C75F17400CCA4AA /* WISConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381668531C75F17400CCA4AA /* WISConnect */ = {
+			isa = PBXGroup;
+			children = (
+				381668571C75F17400CCA4AA /* AppDelegate.h */,
+				381668581C75F17400CCA4AA /* AppDelegate.m */,
+				3816685A1C75F17400CCA4AA /* Assets.xcassets */,
+				3816685C1C75F17400CCA4AA /* LaunchScreen.storyboard */,
+				3816685F1C75F17400CCA4AA /* Info.plist */,
+				381668541C75F17400CCA4AA /* Supporting Files */,
+			);
+			path = WISConnect;
+			sourceTree = "<group>";
+		};
+		381668541C75F17400CCA4AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381668551C75F17400CCA4AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		381668671C75F17400CCA4AA /* WISConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				381668681C75F17400CCA4AA /* WISConnectTests.m */,
+				3816686A1C75F17400CCA4AA /* Info.plist */,
+			);
+			path = WISConnectTests;
+			sourceTree = "<group>";
+		};
+		381668721C75F17400CCA4AA /* WISConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				381668731C75F17400CCA4AA /* WISConnectUITests.m */,
+				381668751C75F17400CCA4AA /* Info.plist */,
+			);
+			path = WISConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381668501C75F17400CCA4AA /* WISConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381668781C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnect" */;
+			buildPhases = (
+				3816684D1C75F17400CCA4AA /* Sources */,
+				3816684E1C75F17400CCA4AA /* Frameworks */,
+				3816684F1C75F17400CCA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WISConnect;
+			productName = WISConnect;
+			productReference = 381668511C75F17400CCA4AA /* WISConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381668631C75F17400CCA4AA /* WISConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3816687B1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectTests" */;
+			buildPhases = (
+				381668601C75F17400CCA4AA /* Sources */,
+				381668611C75F17400CCA4AA /* Frameworks */,
+				381668621C75F17400CCA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381668661C75F17400CCA4AA /* PBXTargetDependency */,
+			);
+			name = WISConnectTests;
+			productName = WISConnectTests;
+			productReference = 381668641C75F17400CCA4AA /* WISConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3816686E1C75F17400CCA4AA /* WISConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3816687E1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectUITests" */;
+			buildPhases = (
+				3816686B1C75F17400CCA4AA /* Sources */,
+				3816686C1C75F17400CCA4AA /* Frameworks */,
+				3816686D1C75F17400CCA4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381668711C75F17400CCA4AA /* PBXTargetDependency */,
+			);
+			name = WISConnectUITests;
+			productName = WISConnectUITests;
+			productReference = 3816686F1C75F17400CCA4AA /* WISConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381668491C75F17400CCA4AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jingwei Wu";
+				TargetAttributes = {
+					381668501C75F17400CCA4AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ED5KLN7CY6;
+					};
+					381668631C75F17400CCA4AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ED5KLN7CY6;
+						TestTargetID = 381668501C75F17400CCA4AA;
+					};
+					3816686E1C75F17400CCA4AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ED5KLN7CY6;
+						TestTargetID = 381668501C75F17400CCA4AA;
+					};
+				};
+			};
+			buildConfigurationList = 3816684C1C75F17400CCA4AA /* Build configuration list for PBXProject "WISConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381668481C75F17400CCA4AA;
+			productRefGroup = 381668521C75F17400CCA4AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381668501C75F17400CCA4AA /* WISConnect */,
+				381668631C75F17400CCA4AA /* WISConnectTests */,
+				3816686E1C75F17400CCA4AA /* WISConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3816684F1C75F17400CCA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3816685B1C75F17400CCA4AA /* Assets.xcassets in Resources */,
+				3816685E1C75F17400CCA4AA /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381668621C75F17400CCA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3816686D1C75F17400CCA4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3816684D1C75F17400CCA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381668591C75F17400CCA4AA /* AppDelegate.m in Sources */,
+				381668561C75F17400CCA4AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381668601C75F17400CCA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381668691C75F17400CCA4AA /* WISConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3816686B1C75F17400CCA4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381668741C75F17400CCA4AA /* WISConnectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381668661C75F17400CCA4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381668501C75F17400CCA4AA /* WISConnect */;
+			targetProxy = 381668651C75F17400CCA4AA /* PBXContainerItemProxy */;
+		};
+		381668711C75F17400CCA4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381668501C75F17400CCA4AA /* WISConnect */;
+			targetProxy = 381668701C75F17400CCA4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3816685C1C75F17400CCA4AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3816685D1C75F17400CCA4AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381668761C75F17400CCA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		381668771C75F17400CCA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381668791C75F17400CCA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WISConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3816687A1C75F17400CCA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WISConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3816687C1C75F17400CCA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WISConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WISConnect.app/WISConnect";
+			};
+			name = Debug;
+		};
+		3816687D1C75F17400CCA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WISConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WISConnect.app/WISConnect";
+			};
+			name = Release;
+		};
+		3816687F1C75F17400CCA4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WISConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WISConnect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		381668801C75F17400CCA4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WISConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WISConnect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3816684C1C75F17400CCA4AA /* Build configuration list for PBXProject "WISConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381668761C75F17400CCA4AA /* Debug */,
+				381668771C75F17400CCA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381668781C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381668791C75F17400CCA4AA /* Debug */,
+				3816687A1C75F17400CCA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3816687B1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3816687C1C75F17400CCA4AA /* Debug */,
+				3816687D1C75F17400CCA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3816687E1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3816687F1C75F17400CCA4AA /* Debug */,
+				381668801C75F17400CCA4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381668491C75F17400CCA4AA /* Project object */;
+}
