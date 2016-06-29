@@ -13,6 +13,56 @@
 		3816685E1C75F17400CCA4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3816685C1C75F17400CCA4AA /* LaunchScreen.storyboard */; };
 		381668691C75F17400CCA4AA /* WISConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668681C75F17400CCA4AA /* WISConnectTests.m */; };
 		381668741C75F17400CCA4AA /* WISConnectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668731C75F17400CCA4AA /* WISConnectUITests.m */; };
+		381668A91C75F3E000CCA4AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381668A81C75F3E000CCA4AA /* Security.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		381668AB1C75F3F100CCA4AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381668AA1C75F3F100CCA4AA /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		381668AF1C75F4FC00CCA4AA /* WISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381668AD1C75F4FC00CCA4AA /* WISViewController.m */; };
+		381668B01C75F4FC00CCA4AA /* WISViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381668AE1C75F4FC00CCA4AA /* WISViewController.xib */; };
+		388C7D801C9BA4650095BA15 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CBA1C9BA4640095BA15 /* AFHTTPSessionManager.m */; };
+		388C7D811C9BA4650095BA15 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CBD1C9BA4640095BA15 /* AFNetworkReachabilityManager.m */; };
+		388C7D821C9BA4650095BA15 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CBF1C9BA4640095BA15 /* AFSecurityPolicy.m */; };
+		388C7D831C9BA4650095BA15 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CC11C9BA4640095BA15 /* AFURLRequestSerialization.m */; };
+		388C7D841C9BA4650095BA15 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CC31C9BA4640095BA15 /* AFURLResponseSerialization.m */; };
+		388C7D851C9BA4650095BA15 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7CC51C9BA4640095BA15 /* AFURLSessionManager.m */; };
+		388C7DC11C9BA4650095BA15 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 388C7D2D1C9BA4650095BA15 /* LICENSE */; };
+		388C7DC21C9BA4650095BA15 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D2E1C9BA4650095BA15 /* README.md */; };
+		388C7DEF1C9BA4650095BA15 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D6A1C9BA4650095BA15 /* AFAutoPurgingImageCache.m */; };
+		388C7DF01C9BA4650095BA15 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D6C1C9BA4650095BA15 /* AFImageDownloader.m */; };
+		388C7DF11C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D6E1C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.m */; };
+		388C7DF21C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D701C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.m */; };
+		388C7DF31C9BA4650095BA15 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D721C9BA4650095BA15 /* UIButton+AFNetworking.m */; };
+		388C7DF41C9BA4650095BA15 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D751C9BA4650095BA15 /* UIImageView+AFNetworking.m */; };
+		388C7DF51C9BA4650095BA15 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D781C9BA4650095BA15 /* UIProgressView+AFNetworking.m */; };
+		388C7DF61C9BA4650095BA15 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D7A1C9BA4650095BA15 /* UIRefreshControl+AFNetworking.m */; };
+		388C7DF71C9BA4650095BA15 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 388C7D7C1C9BA4650095BA15 /* UIWebView+AFNetworking.m */; };
+		38F3E87F1D20B955000F2F78 /* WISAttendanceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8321D20B955000F2F78 /* WISAttendanceRecord.m */; };
+		38F3E8801D20B955000F2F78 /* WISClockRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8341D20B955000F2F78 /* WISClockRecord.m */; };
+		38F3E8811D20B955000F2F78 /* WISCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8361D20B955000F2F78 /* WISCompany.m */; };
+		38F3E8821D20B955000F2F78 /* WISDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8381D20B955000F2F78 /* WISDevice.m */; };
+		38F3E8831D20B955000F2F78 /* WISDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E83A1D20B955000F2F78 /* WISDeviceType.m */; };
+		38F3E8841D20B955000F2F78 /* WISFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E83C1D20B955000F2F78 /* WISFileInfo.m */; };
+		38F3E8851D20B955000F2F78 /* WISInspectionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E83E1D20B955000F2F78 /* WISInspectionTask.m */; };
+		38F3E8861D20B955000F2F78 /* WISMaintenancePlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8401D20B955000F2F78 /* WISMaintenancePlan.m */; };
+		38F3E8871D20B955000F2F78 /* WISMaintenanceTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8421D20B955000F2F78 /* WISMaintenanceTask.m */; };
+		38F3E8881D20B955000F2F78 /* WISMaintenanceTaskRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8441D20B955000F2F78 /* WISMaintenanceTaskRating.m */; };
+		38F3E8891D20B955000F2F78 /* WISMaintenanceTaskState.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8461D20B955000F2F78 /* WISMaintenanceTaskState.m */; };
+		38F3E88A1D20B955000F2F78 /* WISUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8491D20B955000F2F78 /* WISUser.m */; };
+		38F3E88B1D20B955000F2F78 /* WISDataResponsedNULLDataException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E84D1D20B955000F2F78 /* WISDataResponsedNULLDataException.m */; };
+		38F3E88C1D20B955000F2F78 /* WISIncorrectParamsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E84F1D20B955000F2F78 /* WISIncorrectParamsException.m */; };
+		38F3E88D1D20B955000F2F78 /* NSDate+WISExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8521D20B955000F2F78 /* NSDate+WISExtension.m */; };
+		38F3E88E1D20B955000F2F78 /* NSError+WISExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8541D20B955000F2F78 /* NSError+WISExtension.m */; };
+		38F3E88F1D20B955000F2F78 /* UIImage+WISDRIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8561D20B955000F2F78 /* UIImage+WISDRIExtension.m */; };
+		38F3E8901D20B955000F2F78 /* WISInspectionTaskDataNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8591D20B955000F2F78 /* WISInspectionTaskDataNotification.m */; };
+		38F3E8911D20B955000F2F78 /* WISMaintenanceTaskDataNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E85B1D20B955000F2F78 /* WISMaintenanceTaskDataNotification.m */; };
+		38F3E8921D20B955000F2F78 /* WISSystemDataNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E85D1D20B955000F2F78 /* WISSystemDataNotification.m */; };
+		38F3E8931D20B955000F2F78 /* WISArchivingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8651D20B955000F2F78 /* WISArchivingStore.m */; };
+		38F3E8941D20B955000F2F78 /* WISDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8671D20B955000F2F78 /* WISDataManager.m */; };
+		38F3E8951D20B955000F2F78 /* WISFileStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8691D20B955000F2F78 /* WISFileStoreManager.m */; };
+		38F3E8961D20B955000F2F78 /* WISLocalDocumentImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E86C1D20B955000F2F78 /* WISLocalDocumentImageStore.m */; };
+		38F3E8971D20B955000F2F78 /* WISNetworkResponsedNULLDataException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8711D20B955000F2F78 /* WISNetworkResponsedNULLDataException.m */; };
+		38F3E8981D20B955000F2F78 /* WISInspectionTaskNetworkNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8741D20B955000F2F78 /* WISInspectionTaskNetworkNotification.m */; };
+		38F3E8991D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8761D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.m */; };
+		38F3E89A1D20B955000F2F78 /* WISSystemNetworkNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E8781D20B955000F2F78 /* WISSystemNetworkNotification.m */; };
+		38F3E89B1D20B955000F2F78 /* WISNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E87E1D20B955000F2F78 /* WISNetworkService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +96,116 @@
 		3816686F1C75F17400CCA4AA /* WISConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WISConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381668731C75F17400CCA4AA /* WISConnectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WISConnectUITests.m; sourceTree = "<group>"; };
 		381668751C75F17400CCA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381668A81C75F3E000CCA4AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		381668AA1C75F3F100CCA4AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		381668AC1C75F4FC00CCA4AA /* WISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISViewController.h; sourceTree = "<group>"; };
+		381668AD1C75F4FC00CCA4AA /* WISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISViewController.m; sourceTree = "<group>"; };
+		381668AE1C75F4FC00CCA4AA /* WISViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WISViewController.xib; sourceTree = "<group>"; };
+		388C7CB91C9BA4640095BA15 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		388C7CBA1C9BA4640095BA15 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		388C7CBB1C9BA4640095BA15 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		388C7CBC1C9BA4640095BA15 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		388C7CBD1C9BA4640095BA15 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		388C7CBE1C9BA4640095BA15 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		388C7CBF1C9BA4640095BA15 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		388C7CC01C9BA4640095BA15 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		388C7CC11C9BA4640095BA15 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		388C7CC21C9BA4640095BA15 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		388C7CC31C9BA4640095BA15 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		388C7CC41C9BA4640095BA15 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		388C7CC51C9BA4640095BA15 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		388C7D2D1C9BA4650095BA15 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		388C7D2E1C9BA4650095BA15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		388C7D691C9BA4650095BA15 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		388C7D6A1C9BA4650095BA15 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		388C7D6B1C9BA4650095BA15 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		388C7D6C1C9BA4650095BA15 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		388C7D6D1C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		388C7D6E1C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		388C7D6F1C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D701C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		388C7D711C9BA4650095BA15 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D721C9BA4650095BA15 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		388C7D731C9BA4650095BA15 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D741C9BA4650095BA15 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D751C9BA4650095BA15 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		388C7D761C9BA4650095BA15 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D771C9BA4650095BA15 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D781C9BA4650095BA15 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		388C7D791C9BA4650095BA15 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D7A1C9BA4650095BA15 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		388C7D7B1C9BA4650095BA15 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		388C7D7C1C9BA4650095BA15 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		38F3E8311D20B955000F2F78 /* WISAttendanceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISAttendanceRecord.h; sourceTree = "<group>"; };
+		38F3E8321D20B955000F2F78 /* WISAttendanceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISAttendanceRecord.m; sourceTree = "<group>"; };
+		38F3E8331D20B955000F2F78 /* WISClockRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISClockRecord.h; sourceTree = "<group>"; };
+		38F3E8341D20B955000F2F78 /* WISClockRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISClockRecord.m; sourceTree = "<group>"; };
+		38F3E8351D20B955000F2F78 /* WISCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISCompany.h; sourceTree = "<group>"; };
+		38F3E8361D20B955000F2F78 /* WISCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISCompany.m; sourceTree = "<group>"; };
+		38F3E8371D20B955000F2F78 /* WISDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISDevice.h; sourceTree = "<group>"; };
+		38F3E8381D20B955000F2F78 /* WISDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISDevice.m; sourceTree = "<group>"; };
+		38F3E8391D20B955000F2F78 /* WISDeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISDeviceType.h; sourceTree = "<group>"; };
+		38F3E83A1D20B955000F2F78 /* WISDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISDeviceType.m; sourceTree = "<group>"; };
+		38F3E83B1D20B955000F2F78 /* WISFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISFileInfo.h; sourceTree = "<group>"; };
+		38F3E83C1D20B955000F2F78 /* WISFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISFileInfo.m; sourceTree = "<group>"; };
+		38F3E83D1D20B955000F2F78 /* WISInspectionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISInspectionTask.h; sourceTree = "<group>"; };
+		38F3E83E1D20B955000F2F78 /* WISInspectionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISInspectionTask.m; sourceTree = "<group>"; };
+		38F3E83F1D20B955000F2F78 /* WISMaintenancePlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenancePlan.h; sourceTree = "<group>"; };
+		38F3E8401D20B955000F2F78 /* WISMaintenancePlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenancePlan.m; sourceTree = "<group>"; };
+		38F3E8411D20B955000F2F78 /* WISMaintenanceTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTask.h; sourceTree = "<group>"; };
+		38F3E8421D20B955000F2F78 /* WISMaintenanceTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenanceTask.m; sourceTree = "<group>"; };
+		38F3E8431D20B955000F2F78 /* WISMaintenanceTaskRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskRating.h; sourceTree = "<group>"; };
+		38F3E8441D20B955000F2F78 /* WISMaintenanceTaskRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenanceTaskRating.m; sourceTree = "<group>"; };
+		38F3E8451D20B955000F2F78 /* WISMaintenanceTaskState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskState.h; sourceTree = "<group>"; };
+		38F3E8461D20B955000F2F78 /* WISMaintenanceTaskState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenanceTaskState.m; sourceTree = "<group>"; };
+		38F3E8471D20B955000F2F78 /* WISSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISSorter.h; sourceTree = "<group>"; };
+		38F3E8481D20B955000F2F78 /* WISUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISUser.h; sourceTree = "<group>"; };
+		38F3E8491D20B955000F2F78 /* WISUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISUser.m; sourceTree = "<group>"; };
+		38F3E84B1D20B955000F2F78 /* WISDataException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISDataException.h; sourceTree = "<group>"; };
+		38F3E84C1D20B955000F2F78 /* WISDataResponsedNULLDataException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISDataResponsedNULLDataException.h; sourceTree = "<group>"; };
+		38F3E84D1D20B955000F2F78 /* WISDataResponsedNULLDataException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISDataResponsedNULLDataException.m; sourceTree = "<group>"; };
+		38F3E84E1D20B955000F2F78 /* WISIncorrectParamsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISIncorrectParamsException.h; sourceTree = "<group>"; };
+		38F3E84F1D20B955000F2F78 /* WISIncorrectParamsException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISIncorrectParamsException.m; sourceTree = "<group>"; };
+		38F3E8511D20B955000F2F78 /* NSDate+WISExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WISExtension.h"; sourceTree = "<group>"; };
+		38F3E8521D20B955000F2F78 /* NSDate+WISExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WISExtension.m"; sourceTree = "<group>"; };
+		38F3E8531D20B955000F2F78 /* NSError+WISExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+WISExtension.h"; sourceTree = "<group>"; };
+		38F3E8541D20B955000F2F78 /* NSError+WISExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+WISExtension.m"; sourceTree = "<group>"; };
+		38F3E8551D20B955000F2F78 /* UIImage+WISDRIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WISDRIExtension.h"; sourceTree = "<group>"; };
+		38F3E8561D20B955000F2F78 /* UIImage+WISDRIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WISDRIExtension.m"; sourceTree = "<group>"; };
+		38F3E8581D20B955000F2F78 /* WISInspectionTaskDataNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISInspectionTaskDataNotification.h; sourceTree = "<group>"; };
+		38F3E8591D20B955000F2F78 /* WISInspectionTaskDataNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISInspectionTaskDataNotification.m; sourceTree = "<group>"; };
+		38F3E85A1D20B955000F2F78 /* WISMaintenanceTaskDataNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskDataNotification.h; sourceTree = "<group>"; };
+		38F3E85B1D20B955000F2F78 /* WISMaintenanceTaskDataNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenanceTaskDataNotification.m; sourceTree = "<group>"; };
+		38F3E85C1D20B955000F2F78 /* WISSystemDataNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISSystemDataNotification.h; sourceTree = "<group>"; };
+		38F3E85D1D20B955000F2F78 /* WISSystemDataNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISSystemDataNotification.m; sourceTree = "<group>"; };
+		38F3E85F1D20B955000F2F78 /* WISImageStoreDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISImageStoreDelegate.h; sourceTree = "<group>"; };
+		38F3E8601D20B955000F2F78 /* WISInspectionTaskDataOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISInspectionTaskDataOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E8611D20B955000F2F78 /* WISMaintenanceTaskDataOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskDataOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E8621D20B955000F2F78 /* WISNetworkingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISNetworkingDelegate.h; sourceTree = "<group>"; };
+		38F3E8631D20B955000F2F78 /* WISSystemDataOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISSystemDataOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E8641D20B955000F2F78 /* WISArchivingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISArchivingStore.h; sourceTree = "<group>"; };
+		38F3E8651D20B955000F2F78 /* WISArchivingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISArchivingStore.m; sourceTree = "<group>"; };
+		38F3E8661D20B955000F2F78 /* WISDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISDataManager.h; sourceTree = "<group>"; };
+		38F3E8671D20B955000F2F78 /* WISDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISDataManager.m; sourceTree = "<group>"; };
+		38F3E8681D20B955000F2F78 /* WISFileStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISFileStoreManager.h; sourceTree = "<group>"; };
+		38F3E8691D20B955000F2F78 /* WISFileStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISFileStoreManager.m; sourceTree = "<group>"; };
+		38F3E86A1D20B955000F2F78 /* WISImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISImageStore.h; sourceTree = "<group>"; };
+		38F3E86B1D20B955000F2F78 /* WISLocalDocumentImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISLocalDocumentImageStore.h; sourceTree = "<group>"; };
+		38F3E86C1D20B955000F2F78 /* WISLocalDocumentImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISLocalDocumentImageStore.m; sourceTree = "<group>"; };
+		38F3E86F1D20B955000F2F78 /* WISNetworkException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISNetworkException.h; sourceTree = "<group>"; };
+		38F3E8701D20B955000F2F78 /* WISNetworkResponsedNULLDataException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISNetworkResponsedNULLDataException.h; sourceTree = "<group>"; };
+		38F3E8711D20B955000F2F78 /* WISNetworkResponsedNULLDataException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISNetworkResponsedNULLDataException.m; sourceTree = "<group>"; };
+		38F3E8731D20B955000F2F78 /* WISInspectionTaskNetworkNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISInspectionTaskNetworkNotification.h; sourceTree = "<group>"; };
+		38F3E8741D20B955000F2F78 /* WISInspectionTaskNetworkNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISInspectionTaskNetworkNotification.m; sourceTree = "<group>"; };
+		38F3E8751D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskNetworkNotification.h; sourceTree = "<group>"; };
+		38F3E8761D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISMaintenanceTaskNetworkNotification.m; sourceTree = "<group>"; };
+		38F3E8771D20B955000F2F78 /* WISSystemNetworkNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISSystemNetworkNotification.h; sourceTree = "<group>"; };
+		38F3E8781D20B955000F2F78 /* WISSystemNetworkNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISSystemNetworkNotification.m; sourceTree = "<group>"; };
+		38F3E87A1D20B955000F2F78 /* WISInspectionTaskNetworkOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISInspectionTaskNetworkOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E87B1D20B955000F2F78 /* WISMaintenanceTaskNetworkOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISMaintenanceTaskNetworkOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E87C1D20B955000F2F78 /* WISSystemNetworkOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISSystemNetworkOperationDelegate.h; sourceTree = "<group>"; };
+		38F3E87D1D20B955000F2F78 /* WISNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISNetworkService.h; sourceTree = "<group>"; };
+		38F3E87E1D20B955000F2F78 /* WISNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISNetworkService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +213,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381668AB1C75F3F100CCA4AA /* SystemConfiguration.framework in Frameworks */,
+				381668A91C75F3E000CCA4AA /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +238,12 @@
 		381668481C75F17400CCA4AA = {
 			isa = PBXGroup;
 			children = (
-				381668531C75F17400CCA4AA /* WISConnect */,
+				38F3E82F1D20B955000F2F78 /* WISDataService */,
+				38F3E86D1D20B955000F2F78 /* WISNetworkService */,
+				388C7CB41C9BA4640095BA15 /* AFNetworking */,
+				381668AA1C75F3F100CCA4AA /* SystemConfiguration.framework */,
+				381668A81C75F3E000CCA4AA /* Security.framework */,
+				381668531C75F17400CCA4AA /* WISConnect_Main */,
 				381668671C75F17400CCA4AA /* WISConnectTests */,
 				381668721C75F17400CCA4AA /* WISConnectUITests */,
 				381668521C75F17400CCA4AA /* Products */,
@@ -93,7 +260,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		381668531C75F17400CCA4AA /* WISConnect */ = {
+		381668531C75F17400CCA4AA /* WISConnect_Main */ = {
 			isa = PBXGroup;
 			children = (
 				381668571C75F17400CCA4AA /* AppDelegate.h */,
@@ -102,7 +269,11 @@
 				3816685C1C75F17400CCA4AA /* LaunchScreen.storyboard */,
 				3816685F1C75F17400CCA4AA /* Info.plist */,
 				381668541C75F17400CCA4AA /* Supporting Files */,
+				381668AC1C75F4FC00CCA4AA /* WISViewController.h */,
+				381668AD1C75F4FC00CCA4AA /* WISViewController.m */,
+				381668AE1C75F4FC00CCA4AA /* WISViewController.xib */,
 			);
+			name = WISConnect_Main;
 			path = WISConnect;
 			sourceTree = "<group>";
 		};
@@ -130,6 +301,212 @@
 				381668751C75F17400CCA4AA /* Info.plist */,
 			);
 			path = WISConnectUITests;
+			sourceTree = "<group>";
+		};
+		388C7CB41C9BA4640095BA15 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				388C7CB81C9BA4640095BA15 /* AFNetworking */,
+				388C7D2D1C9BA4650095BA15 /* LICENSE */,
+				388C7D2E1C9BA4650095BA15 /* README.md */,
+				388C7D681C9BA4650095BA15 /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		388C7CB81C9BA4640095BA15 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				388C7CB91C9BA4640095BA15 /* AFHTTPSessionManager.h */,
+				388C7CBA1C9BA4640095BA15 /* AFHTTPSessionManager.m */,
+				388C7CBB1C9BA4640095BA15 /* AFNetworking.h */,
+				388C7CBC1C9BA4640095BA15 /* AFNetworkReachabilityManager.h */,
+				388C7CBD1C9BA4640095BA15 /* AFNetworkReachabilityManager.m */,
+				388C7CBE1C9BA4640095BA15 /* AFSecurityPolicy.h */,
+				388C7CBF1C9BA4640095BA15 /* AFSecurityPolicy.m */,
+				388C7CC01C9BA4640095BA15 /* AFURLRequestSerialization.h */,
+				388C7CC11C9BA4640095BA15 /* AFURLRequestSerialization.m */,
+				388C7CC21C9BA4640095BA15 /* AFURLResponseSerialization.h */,
+				388C7CC31C9BA4640095BA15 /* AFURLResponseSerialization.m */,
+				388C7CC41C9BA4640095BA15 /* AFURLSessionManager.h */,
+				388C7CC51C9BA4640095BA15 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		388C7D681C9BA4650095BA15 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				388C7D691C9BA4650095BA15 /* AFAutoPurgingImageCache.h */,
+				388C7D6A1C9BA4650095BA15 /* AFAutoPurgingImageCache.m */,
+				388C7D6B1C9BA4650095BA15 /* AFImageDownloader.h */,
+				388C7D6C1C9BA4650095BA15 /* AFImageDownloader.m */,
+				388C7D6D1C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.h */,
+				388C7D6E1C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.m */,
+				388C7D6F1C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.h */,
+				388C7D701C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.m */,
+				388C7D711C9BA4650095BA15 /* UIButton+AFNetworking.h */,
+				388C7D721C9BA4650095BA15 /* UIButton+AFNetworking.m */,
+				388C7D731C9BA4650095BA15 /* UIImage+AFNetworking.h */,
+				388C7D741C9BA4650095BA15 /* UIImageView+AFNetworking.h */,
+				388C7D751C9BA4650095BA15 /* UIImageView+AFNetworking.m */,
+				388C7D761C9BA4650095BA15 /* UIKit+AFNetworking.h */,
+				388C7D771C9BA4650095BA15 /* UIProgressView+AFNetworking.h */,
+				388C7D781C9BA4650095BA15 /* UIProgressView+AFNetworking.m */,
+				388C7D791C9BA4650095BA15 /* UIRefreshControl+AFNetworking.h */,
+				388C7D7A1C9BA4650095BA15 /* UIRefreshControl+AFNetworking.m */,
+				388C7D7B1C9BA4650095BA15 /* UIWebView+AFNetworking.h */,
+				388C7D7C1C9BA4650095BA15 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		38F3E82F1D20B955000F2F78 /* WISDataService */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E8301D20B955000F2F78 /* DataServiceCommon */,
+				38F3E84A1D20B955000F2F78 /* DataServiceExceptions */,
+				38F3E8501D20B955000F2F78 /* DataServiceExtensions */,
+				38F3E8571D20B955000F2F78 /* DataServiceNotifications */,
+				38F3E85E1D20B955000F2F78 /* DataServiceProtocols */,
+				38F3E8641D20B955000F2F78 /* WISArchivingStore.h */,
+				38F3E8651D20B955000F2F78 /* WISArchivingStore.m */,
+				38F3E8661D20B955000F2F78 /* WISDataManager.h */,
+				38F3E8671D20B955000F2F78 /* WISDataManager.m */,
+				38F3E8681D20B955000F2F78 /* WISFileStoreManager.h */,
+				38F3E8691D20B955000F2F78 /* WISFileStoreManager.m */,
+				38F3E86A1D20B955000F2F78 /* WISImageStore.h */,
+				38F3E86B1D20B955000F2F78 /* WISLocalDocumentImageStore.h */,
+				38F3E86C1D20B955000F2F78 /* WISLocalDocumentImageStore.m */,
+			);
+			path = WISDataService;
+			sourceTree = "<group>";
+		};
+		38F3E8301D20B955000F2F78 /* DataServiceCommon */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E8311D20B955000F2F78 /* WISAttendanceRecord.h */,
+				38F3E8321D20B955000F2F78 /* WISAttendanceRecord.m */,
+				38F3E8331D20B955000F2F78 /* WISClockRecord.h */,
+				38F3E8341D20B955000F2F78 /* WISClockRecord.m */,
+				38F3E8351D20B955000F2F78 /* WISCompany.h */,
+				38F3E8361D20B955000F2F78 /* WISCompany.m */,
+				38F3E8371D20B955000F2F78 /* WISDevice.h */,
+				38F3E8381D20B955000F2F78 /* WISDevice.m */,
+				38F3E8391D20B955000F2F78 /* WISDeviceType.h */,
+				38F3E83A1D20B955000F2F78 /* WISDeviceType.m */,
+				38F3E83B1D20B955000F2F78 /* WISFileInfo.h */,
+				38F3E83C1D20B955000F2F78 /* WISFileInfo.m */,
+				38F3E83D1D20B955000F2F78 /* WISInspectionTask.h */,
+				38F3E83E1D20B955000F2F78 /* WISInspectionTask.m */,
+				38F3E83F1D20B955000F2F78 /* WISMaintenancePlan.h */,
+				38F3E8401D20B955000F2F78 /* WISMaintenancePlan.m */,
+				38F3E8411D20B955000F2F78 /* WISMaintenanceTask.h */,
+				38F3E8421D20B955000F2F78 /* WISMaintenanceTask.m */,
+				38F3E8431D20B955000F2F78 /* WISMaintenanceTaskRating.h */,
+				38F3E8441D20B955000F2F78 /* WISMaintenanceTaskRating.m */,
+				38F3E8451D20B955000F2F78 /* WISMaintenanceTaskState.h */,
+				38F3E8461D20B955000F2F78 /* WISMaintenanceTaskState.m */,
+				38F3E8471D20B955000F2F78 /* WISSorter.h */,
+				38F3E8481D20B955000F2F78 /* WISUser.h */,
+				38F3E8491D20B955000F2F78 /* WISUser.m */,
+			);
+			path = DataServiceCommon;
+			sourceTree = "<group>";
+		};
+		38F3E84A1D20B955000F2F78 /* DataServiceExceptions */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E84B1D20B955000F2F78 /* WISDataException.h */,
+				38F3E84C1D20B955000F2F78 /* WISDataResponsedNULLDataException.h */,
+				38F3E84D1D20B955000F2F78 /* WISDataResponsedNULLDataException.m */,
+				38F3E84E1D20B955000F2F78 /* WISIncorrectParamsException.h */,
+				38F3E84F1D20B955000F2F78 /* WISIncorrectParamsException.m */,
+			);
+			path = DataServiceExceptions;
+			sourceTree = "<group>";
+		};
+		38F3E8501D20B955000F2F78 /* DataServiceExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E8511D20B955000F2F78 /* NSDate+WISExtension.h */,
+				38F3E8521D20B955000F2F78 /* NSDate+WISExtension.m */,
+				38F3E8531D20B955000F2F78 /* NSError+WISExtension.h */,
+				38F3E8541D20B955000F2F78 /* NSError+WISExtension.m */,
+				38F3E8551D20B955000F2F78 /* UIImage+WISDRIExtension.h */,
+				38F3E8561D20B955000F2F78 /* UIImage+WISDRIExtension.m */,
+			);
+			path = DataServiceExtensions;
+			sourceTree = "<group>";
+		};
+		38F3E8571D20B955000F2F78 /* DataServiceNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E8581D20B955000F2F78 /* WISInspectionTaskDataNotification.h */,
+				38F3E8591D20B955000F2F78 /* WISInspectionTaskDataNotification.m */,
+				38F3E85A1D20B955000F2F78 /* WISMaintenanceTaskDataNotification.h */,
+				38F3E85B1D20B955000F2F78 /* WISMaintenanceTaskDataNotification.m */,
+				38F3E85C1D20B955000F2F78 /* WISSystemDataNotification.h */,
+				38F3E85D1D20B955000F2F78 /* WISSystemDataNotification.m */,
+			);
+			path = DataServiceNotifications;
+			sourceTree = "<group>";
+		};
+		38F3E85E1D20B955000F2F78 /* DataServiceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E85F1D20B955000F2F78 /* WISImageStoreDelegate.h */,
+				38F3E8601D20B955000F2F78 /* WISInspectionTaskDataOperationDelegate.h */,
+				38F3E8611D20B955000F2F78 /* WISMaintenanceTaskDataOperationDelegate.h */,
+				38F3E8621D20B955000F2F78 /* WISNetworkingDelegate.h */,
+				38F3E8631D20B955000F2F78 /* WISSystemDataOperationDelegate.h */,
+			);
+			path = DataServiceProtocols;
+			sourceTree = "<group>";
+		};
+		38F3E86D1D20B955000F2F78 /* WISNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E86E1D20B955000F2F78 /* NetworkServiceException */,
+				38F3E8721D20B955000F2F78 /* NetworkServiceNotifications */,
+				38F3E8791D20B955000F2F78 /* NetworkServiceProtocols */,
+				38F3E87D1D20B955000F2F78 /* WISNetworkService.h */,
+				38F3E87E1D20B955000F2F78 /* WISNetworkService.m */,
+			);
+			path = WISNetworkService;
+			sourceTree = "<group>";
+		};
+		38F3E86E1D20B955000F2F78 /* NetworkServiceException */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E86F1D20B955000F2F78 /* WISNetworkException.h */,
+				38F3E8701D20B955000F2F78 /* WISNetworkResponsedNULLDataException.h */,
+				38F3E8711D20B955000F2F78 /* WISNetworkResponsedNULLDataException.m */,
+			);
+			path = NetworkServiceException;
+			sourceTree = "<group>";
+		};
+		38F3E8721D20B955000F2F78 /* NetworkServiceNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E8731D20B955000F2F78 /* WISInspectionTaskNetworkNotification.h */,
+				38F3E8741D20B955000F2F78 /* WISInspectionTaskNetworkNotification.m */,
+				38F3E8751D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.h */,
+				38F3E8761D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.m */,
+				38F3E8771D20B955000F2F78 /* WISSystemNetworkNotification.h */,
+				38F3E8781D20B955000F2F78 /* WISSystemNetworkNotification.m */,
+			);
+			path = NetworkServiceNotifications;
+			sourceTree = "<group>";
+		};
+		38F3E8791D20B955000F2F78 /* NetworkServiceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				38F3E87A1D20B955000F2F78 /* WISInspectionTaskNetworkOperationDelegate.h */,
+				38F3E87B1D20B955000F2F78 /* WISMaintenanceTaskNetworkOperationDelegate.h */,
+				38F3E87C1D20B955000F2F78 /* WISSystemNetworkOperationDelegate.h */,
+			);
+			path = NetworkServiceProtocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,12 +571,18 @@
 		381668491C75F17400CCA4AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WIS;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Jingwei Wu";
 				TargetAttributes = {
 					381668501C75F17400CCA4AA = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = ED5KLN7CY6;
+						DevelopmentTeam = ZVPPU5W2RZ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					381668631C75F17400CCA4AA = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -238,8 +621,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381668B01C75F4FC00CCA4AA /* WISViewController.xib in Resources */,
 				3816685B1C75F17400CCA4AA /* Assets.xcassets in Resources */,
 				3816685E1C75F17400CCA4AA /* LaunchScreen.storyboard in Resources */,
+				388C7DC11C9BA4650095BA15 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +649,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F3E8871D20B955000F2F78 /* WISMaintenanceTask.m in Sources */,
+				38F3E8931D20B955000F2F78 /* WISArchivingStore.m in Sources */,
+				388C7D831C9BA4650095BA15 /* AFURLRequestSerialization.m in Sources */,
 				381668591C75F17400CCA4AA /* AppDelegate.m in Sources */,
 				381668561C75F17400CCA4AA /* main.m in Sources */,
+				388C7DF61C9BA4650095BA15 /* UIRefreshControl+AFNetworking.m in Sources */,
+				38F3E8901D20B955000F2F78 /* WISInspectionTaskDataNotification.m in Sources */,
+				388C7D851C9BA4650095BA15 /* AFURLSessionManager.m in Sources */,
+				388C7DF31C9BA4650095BA15 /* UIButton+AFNetworking.m in Sources */,
+				38F3E8951D20B955000F2F78 /* WISFileStoreManager.m in Sources */,
+				38F3E88A1D20B955000F2F78 /* WISUser.m in Sources */,
+				38F3E8911D20B955000F2F78 /* WISMaintenanceTaskDataNotification.m in Sources */,
+				38F3E89B1D20B955000F2F78 /* WISNetworkService.m in Sources */,
+				388C7D821C9BA4650095BA15 /* AFSecurityPolicy.m in Sources */,
+				388C7DF51C9BA4650095BA15 /* UIProgressView+AFNetworking.m in Sources */,
+				38F3E8841D20B955000F2F78 /* WISFileInfo.m in Sources */,
+				388C7D811C9BA4650095BA15 /* AFNetworkReachabilityManager.m in Sources */,
+				38F3E88D1D20B955000F2F78 /* NSDate+WISExtension.m in Sources */,
+				38F3E8971D20B955000F2F78 /* WISNetworkResponsedNULLDataException.m in Sources */,
+				38F3E87F1D20B955000F2F78 /* WISAttendanceRecord.m in Sources */,
+				388C7DF41C9BA4650095BA15 /* UIImageView+AFNetworking.m in Sources */,
+				38F3E8821D20B955000F2F78 /* WISDevice.m in Sources */,
+				38F3E8801D20B955000F2F78 /* WISClockRecord.m in Sources */,
+				38F3E88C1D20B955000F2F78 /* WISIncorrectParamsException.m in Sources */,
+				38F3E8941D20B955000F2F78 /* WISDataManager.m in Sources */,
+				38F3E8961D20B955000F2F78 /* WISLocalDocumentImageStore.m in Sources */,
+				38F3E88E1D20B955000F2F78 /* NSError+WISExtension.m in Sources */,
+				388C7DC21C9BA4650095BA15 /* README.md in Sources */,
+				388C7DF01C9BA4650095BA15 /* AFImageDownloader.m in Sources */,
+				38F3E88B1D20B955000F2F78 /* WISDataResponsedNULLDataException.m in Sources */,
+				38F3E8831D20B955000F2F78 /* WISDeviceType.m in Sources */,
+				38F3E8861D20B955000F2F78 /* WISMaintenancePlan.m in Sources */,
+				388C7DF21C9BA4650095BA15 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				38F3E8881D20B955000F2F78 /* WISMaintenanceTaskRating.m in Sources */,
+				388C7D801C9BA4650095BA15 /* AFHTTPSessionManager.m in Sources */,
+				38F3E88F1D20B955000F2F78 /* UIImage+WISDRIExtension.m in Sources */,
+				38F3E89A1D20B955000F2F78 /* WISSystemNetworkNotification.m in Sources */,
+				388C7DF11C9BA4650095BA15 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				381668AF1C75F4FC00CCA4AA /* WISViewController.m in Sources */,
+				38F3E8981D20B955000F2F78 /* WISInspectionTaskNetworkNotification.m in Sources */,
+				388C7DF71C9BA4650095BA15 /* UIWebView+AFNetworking.m in Sources */,
+				38F3E8811D20B955000F2F78 /* WISCompany.m in Sources */,
+				38F3E8891D20B955000F2F78 /* WISMaintenanceTaskState.m in Sources */,
+				38F3E8921D20B955000F2F78 /* WISSystemDataNotification.m in Sources */,
+				38F3E8991D20B955000F2F78 /* WISMaintenanceTaskNetworkNotification.m in Sources */,
+				388C7D841C9BA4650095BA15 /* AFURLResponseSerialization.m in Sources */,
+				38F3E8851D20B955000F2F78 /* WISInspectionTask.m in Sources */,
+				388C7DEF1C9BA4650095BA15 /* AFAutoPurgingImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,9 +827,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WISConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdri.WISConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -407,9 +840,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WISConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.wisdri.WISConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdri.WISConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -481,6 +916,7 @@
 				3816687A1C75F17400CCA4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3816687B1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +925,7 @@
 				3816687D1C75F17400CCA4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3816687E1C75F17400CCA4AA /* Build configuration list for PBXNativeTarget "WISConnectUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +934,7 @@
 				381668801C75F17400CCA4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
